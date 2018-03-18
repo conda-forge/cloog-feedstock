@@ -7,7 +7,7 @@ package:
 source:
   fn: cloog-{{ version }}.tar.gz
   url: http://www.bastoul.net/cloog/pages/download/count.php3?url=./cloog-{{ version }}.tar.gz
-  md5: e531f725244856c92c9bba009ff44faf
+  sha256: 325adf3710ce2229b7eeb9e84d3b539556d093ae860027185e7af8a8b00a750e
 
 build:
   number: 0
@@ -31,6 +31,7 @@ test:
 about:
   home: http://www.cloog.org/
   license: LGPL 2.1
+  license_file: LICENSE
   summary: A free software and library to generate code for scanning Z-polyhedra.
 
 extra:
