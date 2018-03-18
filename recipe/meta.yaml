@@ -31,6 +31,7 @@ test:
 about:
   home: http://www.cloog.org/
   license: LGPL 2.1
+  license_file: LICENSE
   summary: A free software and library to generate code for scanning Z-polyhedra.
 
 extra:
