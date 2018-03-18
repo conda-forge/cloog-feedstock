@@ -15,12 +15,12 @@ build:
 
 requirements:
   build:
-    - gmp 5.1.2
-    - isl 0.12.2
+    - gmp 6.1.*
+    - isl 0.19
 
   run:
-    - gmp 5.1.2
-    - isl 0.12.2
+    - gmp 6.1.*
+    - isl 0.19
 
 test:
   commands:
